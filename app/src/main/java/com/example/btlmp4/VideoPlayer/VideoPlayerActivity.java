@@ -65,14 +65,6 @@ public class VideoPlayerActivity extends AppCompatActivity implements View.OnCli
     }
 
 
-    @Override
-    protected void onStop() {
-        super.onStop();
-        playerV.setPlayWhenReady(false);
-        playerV.release();
-        playerV = null;
-    }
-
     public void getIntentAct(){
         position = getIntent().getIntExtra("position", 1);
         videoTitle = getIntent().getStringExtra("video_title");
