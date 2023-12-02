@@ -29,6 +29,7 @@
         <activity
                 android:name=".VideoPlayer.VideoPlayerActivity"
                 android:configChanges="orientation|screenSize|layoutDirection"
+                android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
                 android:exported="false"/>
         <activity
                 android:name=".Folder.VideoFileActivity"
