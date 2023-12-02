@@ -90,7 +90,7 @@ public class VideoPlayerActivity extends AppCompatActivity implements View.OnCli
                 position++;
                 playVideo();
             }catch (Exception e){
-                Toast.makeText(this, "No next Vid", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Không còn video tiếp", Toast.LENGTH_SHORT).show();
                 finish();
             }
         }
@@ -100,7 +100,7 @@ public class VideoPlayerActivity extends AppCompatActivity implements View.OnCli
                 position--;
                 playVideo();
             }catch (Exception e){
-                Toast.makeText(this, "No prev Vid", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Không còn video trước", Toast.LENGTH_SHORT).show();
                 finish();
             }
         }
