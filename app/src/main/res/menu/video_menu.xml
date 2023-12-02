@@ -7,9 +7,9 @@
           app:showAsAction="ifRoom"
           app:actionViewClass="android.widget.SearchView"/>
     <item android:id="@+id/refresh_file"
-          android:title="Refresh"
+          android:title="Tải lại trang"
           app:showAsAction="never"/>
     <item android:id="@+id/sort_by"
-          android:title="Sort_by"
+          android:title="Sắp xếp theo: "
           app:showAsAction="never"/>
 </menu>
